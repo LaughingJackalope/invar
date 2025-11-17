@@ -3,4 +3,12 @@ name = "invar"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib==3.10.7",
+    "numpy==2.3.5",
+    "scipy>=1.16.3",
+    "pillow>=10.4.0",
+    "scipy-stubs==1.16.3.0",
+    "ipython>=9.7.0",
+    "notebook>=7.4.7",
+]
