@@ -51,6 +51,27 @@ python3 materials_invariance.py
 python3 tpu_benchmark.py
 ```
 
+### Notebook: Methods Overview (Recommended First Read)
+
+- Start here for a concise, runnable tour of the framework:
+  - notebooks/Methods_Overview.ipynb
+- It covers:
+  - Scale invariance (Systems 1–3) with the three‑case protocol
+  - Biological application: E. coli persistence two‑state model
+  - System 9 overview: TPU Thermodynamic Integrity Score (TIS)
+
+### Notebook: Fabrication Digital Twin (Semiconductor)
+
+- Open the explanatory notebook at:
+  - notebooks/Fabrication_Digital_Twin.ipynb
+- It walks through:
+  - Initializing the Digital Twin with backend auto-selection (THRML → NumPy fallback)
+  - Defining a checkerboard target mask and a standard 4-step process flow
+  - Running probabilistic yield prediction with entropy and expected metrics
+  - Visualizing per-step trends and the final wafer state
+
+Tip: If THRML is not installed, the notebook will automatically use the NumPy reference backend.
+
 ### Run Tests
 
 ```bash
